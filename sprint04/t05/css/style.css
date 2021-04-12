@@ -1,0 +1,28 @@
+.element {
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+}
+.element[value="off"] {
+    border: 3px dashed black;
+}
+#mind_stone {
+    background-color: yellow;
+}
+#soul_stone {
+    background-color: orange;
+}
+#time_stone {
+    background-color: green;
+}
+#strength_stone {
+    background-color: purple;
+}
+#space_stone {
+    background-color: blue;
+}
+#reality_stone {
+    background-color: red;
+}

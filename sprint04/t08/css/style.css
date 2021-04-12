@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+    padding: 25px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button {
+    padding: 2.5% 5.5%;
+    border: none;
+    border-radius: 8px;
+    background-color: #449DF2;
+    color: white;
+}
+.form, .archive {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    margin: 2% 0;
+    background-color: #e7e7e7;
+    border-radius: 12px;
+}
+.form span, .archive span {
+    font-weight: 400;
+    font-size: 1em;
+    text-align: start;
+    margin-bottom: 2%;
+    color: rgb(17, 44, 119);
+}
+.form input {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+.form textarea {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+}
+#output {
+    font-weight: 400;
+    font-size: .8em;
+    background: white;
+    padding: 6px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    cursor: default;
+}
+#output:enabled {
+    outline: none;
+}

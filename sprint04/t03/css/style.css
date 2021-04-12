@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box
+}
+body {
+    padding-top: 80px;
+}
+img {
+    width: 100%;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.next {
+    right: 0;
+}
+.prev,.next {
+    position: absolute;
+    top: 0;
+    padding: 16px;
+    padding-top: 25%;
+    min-height: 100%;
+    color: white;
+    background-color: rgba(107, 96, 96, 0.8);
+}
+.prev:hover, .next:hover {
+    background-color: rgba(218, 198, 198, 0.8);
+}
+.Slides {
+    display: none;
+}
