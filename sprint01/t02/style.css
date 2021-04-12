@@ -1,0 +1,12 @@
+img {
+    width: 100px;
+}
+
+.hand {
+    width: 300px;
+}
+
+.hand:hover + div section:nth-child(2n) .tanos:nth-child(2n),
+.hand:hover + div section:nth-child(2n-1) .tanos:nth-child(2n-1) {
+    opacity: 0;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Handbook</title>
+        <meta name="description"content="Handbook">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>HTML</h1>
+        <h1>BLOCK ELEMENTS</h1>
+        <div class="sector1">
+            <div class="sector2">
+                <p>div<br>
+                    <br>
+                    defines a division or a section in an HTML document<br>
+                    align, title<br>
+                    <br>
+                    &lt;div&gt;...&lt;/div&gt;
+                </p>
+                <input class="border" placeholder="Lorem ipsum."></input>
+            </div>
+            <div class="sector2">
+                <p>h1<br>
+                  <br>
+                  The h1 to h6 tags are used to define HTML headings <br>
+                  align<br>
+                  <br>
+                  &lt;h1&gt;Title&lt;/h1&gt;
+                </p>
+                <h2><span class="title">Title</span></h2>
+            </div>
+            <div class="sector2">
+                <p>footer<br>
+                  <br>
+                  Specifies the trailing are (footer) of a document or section.<br>
+                  ... <br>
+                  &lt;footer&gt;content&lt;/footer&gt;
+                </p>
+            </div>   
+            <div class="sector2">
+                <p>main<br>
+                  <br />
+                  Specifies the main content of<br>
+                  a document <br>
+                  ...<br>
+                  &lt;main&gt;&lt;/main&gt;
+                </p>
+            </div>
+            <div class="sector2">
+              <p>p<br>
+                <br />
+                The tag defines a paragraph. Browsers automatically add a single blank line before and after each &lt;p&gt; element.<br>
+                <br>
+                &lt;p&gt;Content&lt;/p&gt;<br>
+              </p>
+              <p>Content</p>
+            </div>
+            <div class="sector2">
+                <p>q<br>
+                  <br />
+                  The tag is used to highlight quotes in the text. The contents of the container are automatically displayed in quotes in the browser.<br>
+                  <br>
+                  &lt;q&gt;Content&lt;/q&gt;
+                </p>
+                <q>Content</q>
+            </div> 
+            <div class="sector2">
+              <p>br<br>
+                <br />
+                The tag inserts a single line break.
+                The tag is useful for writing addresses or poems.
+                The tag is an empty tag which means that it has no end tag.<br>
+                <br>
+                Content&lt;br&gt;
+              </p>
+            </div>
+            <div class="sector2">
+              <p>a<br>
+                <br />
+                Tag defines a hyperlink, which is used to link from one page to another. 
+                The most important attribute of the &lt;a&gt; element is the href 
+                attribute, which indicates the link's destination.
+                By default, links will appear as follows in all browsers:
+                <ul>
+                    <li>An unvisited link is underlined and blue</li>
+                    <li>A visited link is underlined and purple</li>
+                    <li>An active link is underlined and red</li>
+                </ul>
+                <br>
+                &lt;a href="link"&gt;link&lt;/a&gt;
+              </p>
+              <a href="link">link</a>
+            </div>
+            <div class="sector2">
+              <p>!-- --<br>
+                <br />
+                The &lt;!-- -- &gt; tag adds a comment to the document code. The comment text is not displayed on the page..<br>
+                <br>
+                &lt;!--Content--&gt;<br>
+              </p>
+            </div>
+            <div class="sector2">
+                <p>header<br>
+                  <br />
+                  The &lt;header&gt; element represents a container for introductory content or a set of navigational links.
+
+                    A &lt;header&gt; element typically contains:
+                    <ul>
+                        <li>one or more heading elements</li>
+                        <li>logo or icon</li>
+                        <li>authorship information</li>
+                    </ul><br>
+                  <br>
+                  &lt;header&gt;...&lt;header&gt;
+                </p>
+            </div>    
+          </div>
+          <h1>CSS</h1>
+          <div class="sector1">      
+            <div class="sector2">
+                <p>Selector<br>
+                    <br>
+                    The name of the HTML element at the beginning of the rule set. It selects the element (s) 
+                    to style (in this case, p elements). To style another element, just change the selector.<br>
+                    <br>
+                    p {
+                    <br>
+                    <br>
+                    }
+                </p>
+            </div>    
+            <div class="sector2">
+              <p>background-color<br>
+                <br>
+                Specifies the background color of an element. Although this property does not inherit properties from its parent, because the initial value is set to 
+                transparent, the background color of the children is the same as the background color of the parent.<br>
+                <br>
+                h1 { <br>
+                  background-color: RGB(249, 201, 16);<br>
+                 }
+              </p>
+            </div>   
+            <div class="sector2">
+              <p>font-family<br>
+                <br />
+                Sets the font family to be used to style the text of the content. 
+                The font list can include one or more names, separated by commas.<br>
+                <br>
+                font-family: font name [, font name[, ...]] | inherit
+              </p>
+            </div>    
+            <div class="sector2">
+              <p>opacity<br>
+                <br />
+                Determines the transparency level of a web page element. With partial or full transparency, 
+                the background image or other elements below the translucent object appear through the element.<br>
+                <br>
+                opacity: value;
+              </p>
+            </div>
+            <div class="sector2">
+              <p>border<br>
+                <br />
+                The generic border property allows you to simultaneously set the thickness, style, 
+                and color of the border around an element. The values can go in any order, separated by a space, 
+                the browser will determine which of them corresponds to the desired property. To set the border only 
+                on certain sides of an element, use the border-top, border-bottom, border-left, border-right properties.<br>
+                <br>
+                border: [border-width || border-style || border-color] | inherit
+              </p>
+            </div>
+            <div class="sector2">
+              <p>margin<br>
+                <br />
+                Sets the padding from each edge of the element. 
+                The padding is the space from the current element's border to the inner border of its parent element<br>
+                <br>
+                body { <br>
+                  margin: 20px;<br>
+                 }
+              </p>
+            </div>
+            <div class="sector2">
+              <p>text-align<br>
+                <br />
+                Determines the horizontal alignment of the text within the element.<br>
+                <br>
+                text-align: center | justify | left | right | start | end
+              </p>
+            </div>
+            <div class="sector2">
+              <p>height<br>
+                <br />
+                Sets the height of block or replaceable elements. 
+                Height does not include the thickness of the borders around the element, padding, and margins.<br>
+                <br>
+                height: value | percent | auto | inherit
+              </p>
+            </div>
+            <div class="sector2">
+              <p>Declaration<br>
+                <br>
+                Rule, for example color: red; specifies which of the element's properties you want to style.<br>
+                <br>
+                p {
+                  <br>
+                  color: red;
+                  <br>
+                  }
+              </p>
+            </div>
+            <div class="sector2">
+                <p>width<br>
+                  <br />
+                  Sets the width of block or swappable elements. Width does not 
+                  include the thickness of the borders around the element, padding, and margins.<br>
+                  <br>
+                  height: value | percent | auto | inherit
+                </p>
+            </div>    
+          </div>
+          <h1>Protocols</h1>
+          <div class="sector1">      
+            <div class="sector2">
+              <p>IP<br>
+                <br />
+                The Internet Protocol (IP) is the principal communications protocol in the Internet protocol 
+                suite for relaying datagrams across network boundaries. Its routing function enables 
+                internetworking, and essentially establishes the Internet.
+                IP has the task of delivering packets from the source host to the destination host 
+                solely based on the IP addresses in the packet headers. For this purpose, IP defines 
+                packet structures that encapsulate the data to be delivered. It also defines addressing 
+                methods that are used to label the datagram with source and destination information.
+              </p>
+            </div>    
+            <div class="sector2">
+              <p>DNS<br>
+                <br>
+                The Domain Name System (DNS) is a central part of the internet, providing a way to match names (a website you’re seeking) to numbers (the address for the website). 
+                Anything connected to the internet - laptops, tablets, mobile phones, websites - has an Internet Protocol (IP) address made up of numbers. 
+                Your favorite website might have an IP address like 64.202.189.170, but this is obviously not easy to remember.
+                However a domain name such as bestdomainnameever.com is something people can recognize and remember.
+                DNS syncs up domain names with IP addresses enabling humans to use memorable domain names while computers on the internet can use IP addresses.
+              </p>
+            </div>  
+            <div class="sector2">
+              <p>HTTP/HTTPS<br>
+                <br>
+                HTTP is a protocol that describes the rules for transmitting data on the Internet. 
+                It helps the browser load web pages and the server retrieves the information that the user 
+                has entered on the site.<br>
+                HTTPS is the same protocol but with a security add-on.
+              </p>
+            </div>   
+            <div class="sector2">
+              <p>Description<br>
+                <br>
+                In networking, a protocol is a set of rules for formatting and processing data. Network protocols 
+                are like a common language for computers. The computers within a network may use vastly different 
+                software and hardware; however, 
+                the use of protocols enables them to communicate with each other regardless.
+            </p>
+            </div>
+    </body>
+</html>
